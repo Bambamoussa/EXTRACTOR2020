@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.Map.Entry;
 
-public class Table {
+public class 	Table {
 	private TreeMap<Integer, TreeMap<Integer, String>> table;
 
 	public Table() {

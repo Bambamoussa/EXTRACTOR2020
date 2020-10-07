@@ -51,8 +51,13 @@ public abstract class PageChecker
             response = Jsoup.connect(pUrl).execute();
             if (response.statusCode() == 200)
             {
+
                 // Si la librairie a réussi à se connecter on teste ensuite si la page provient de wikipedia
+
                 return pUrl.split("//")[1].split("/")[0].contains("wikipedia");
+
+
+
             }
         }
         catch (IOException e)

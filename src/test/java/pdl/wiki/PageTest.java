@@ -11,8 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Classe de test pour la classe Page
@@ -83,6 +82,11 @@ public class PageTest
             assertTrue(test.equals(page_test.getTitle()), "Fonction getUrl() pour l'url contenu à la case [" + i + "] : ");
             //System.out.println("test ok pour : "+url_array);
         }
+      /*
+        Url url_tester = new Url("https://fr.wikipedia.org/wiki/Java_(langage)");
+        Page page_tester = new Page(url_tester);
+        String tester=page_tester.getTitle();
+        assertTrue(tester.equals("Java_(langage)"));*/
     }
 
     /**
@@ -105,8 +109,16 @@ public class PageTest
         for (Object s : array_test)
         {
             assertArrayEquals(array_test.toArray(), page_test.getCsvListHtml().toArray(), "Fonction getCsvList()");
+
+
         }
+        //s'assurez que   le nombre d'element contenu  dans le tableau est égal au nombre d'element attendu
+
+        assertEquals(2,array_test.size());
+
 //        }
+
+
 
     }
 
@@ -127,5 +139,21 @@ public class PageTest
         Page page_test = new Page(url_test);
         String test = page_test.getTitleWithoutSpace();
         assertTrue(test.equals("NombrePremier"), "Fonction getTitle()");
+      /*
+        //faire le test avec les titres contenant des accents
+        Url url_tester = new Url("https://fr.wikipedia.org/wiki/Voiture_électrique");
+        Page page_tester = new Page(url_tester);
+        String tester = page_tester.getTitleWithoutSpace();
+        assertTrue(tester.equals("VoitureElectrique"), "Fonction getTitle()");*/
+
+
+        //faire le test avec les titres contenant des accents
+        Url url_tester1 = new Url("https://fr.wikipedia.org/wiki/Liste_des_aéroports_les_plus_fréquentés_en_France");
+        Page page_tester1 = new Page(url_tester1);
+        String tester1 = page_tester1.getTitleWithoutSpace();
+        assertTrue(tester1.equals("ListeDesAéroportsLesPlusFréquentésEnFrance"), "Fonction getTitle()");
+
+
+
     }
 }

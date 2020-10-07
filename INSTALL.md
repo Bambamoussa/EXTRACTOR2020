@@ -126,3 +126,50 @@ Right-click in the project,
 ```
 Test
 ```
+## Installation with Intellij IDEA
+Try with Intellij IDEA Commmunity 2020.3
+
+###Open Intellij IDEA
+
+```
+File -> New -> Project from Version Control -> Git
+```
+    ### Clone the Project
+```
+copy and paste the link of project in URL   and click on clone
+```
+    ### Installation de maven Window
+    -download Apache Maven last version
+    -install Maven
+    -add Maven in environnement variable
+
+    ### Installation de JDK
+
+    - download and install JDK
+
+    ### Launch Project
+
+    Navigate in the project explorer,
+
+    ```
+    src > main > java >WikipediaMatrixInterface
+    ```
+
+    Right-click to the class WikipediaMatrixInterface,
+
+    ```
+    Run 'WikipediaMatrixInterface:main()'
+    ```
+
+    ### Launch test
+
+    Right-click in the project,
+
+
+    ```
+    src > test > java >pdl.wiki > PageTest
+    ```
+
+    ```
+    Run 'All Tests'
+    ```

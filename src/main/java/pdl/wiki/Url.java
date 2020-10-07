@@ -129,8 +129,12 @@ public class Url {
 
 	@Override
 	public String toString() {
-		if (!valid) {
-			return link + "(Lien invalide !)";
+		if (valid) {
+			 System.out.println( link + "(Lien valide !)");
+		}
+		else
+		{
+			System.out.println( link + "(Lien invalide !)");
 		}
 		return link + "(" + tableCount + ((tableCount) > 1 ? " tableaux trouvés)" : " tableau trouvé)");
 	}

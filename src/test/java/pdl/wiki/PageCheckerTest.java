@@ -24,11 +24,14 @@ public class PageCheckerTest
     public void existingPagesTest_withHttps()
     {
         Map<String, Integer> urlMap = new HashMap<>();
-        urlMap.put("https://fr.wikipedia.org/w/index.php?title=Jeux_olympiques_d%27%C3%A9t%C3%A9&oldid=163777314", 5);
+       /* urlMap.put("https://fr.wikipedia.org/w/index.php?title=Jeux_olympiques_d%27%C3%A9t%C3%A9&oldid=163777314", 5);
         urlMap.put("https://fr.wikipedia.org/w/index.php?title=Wikip%C3%A9dia:Accueil_principal&oldid=155532403", 0);
         urlMap.put("https://fr.wikipedia.org/w/index.php?title=Jeux_olympiques&oldid=163506830", 3);
         urlMap.put("https://fr.wikipedia.org/w/index.php?title=Jeux_olympiques_d%27hiver&oldid=161852389", 6);
         urlMap.put("https://fr.wikipedia.org/w/index.php?title=Jean_Capdouze&oldid=162701968", 1);
+        urlMap.put("https://fr.wikipedia.org/wiki/Voiture_%C3%A9lectrique", 11);*/
+        urlMap.put("https://fr.wikipedia.org/wiki/Steak", 0);
+
         for (Map.Entry set : urlMap.entrySet())
         {
             assertEquals((int) set.getValue(), PageChecker.urlCheck(set.getKey().toString()).size());
