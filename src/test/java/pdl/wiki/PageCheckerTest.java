@@ -56,6 +56,9 @@ public class PageCheckerTest
         urlMap.put("fr.wikipedia.org/w/index.php?title=Jeux_olympiques_d%27hiver&oldid=161852389", 6);
         urlMap.put("http://fr.wikipedia.org/w/index.php?title=Jean_Capdouze&oldid=162701968", 1);
         urlMap.put("fr.wikipedia.org/w/index.php?title=Jean_Capdouze&oldid=162701968", 1);
+        urlMap.put("https://es.wikipedia.org/wiki/Filete_(carne_roja)", 0);
+        urlMap.put("es.wikipedia.org/wiki/Filete_(carne_roja)", 0);
+
         for (Map.Entry set : urlMap.entrySet())
         {
             assertEquals((int) set.getValue(), PageChecker.urlCheck(set.getKey().toString()).size());

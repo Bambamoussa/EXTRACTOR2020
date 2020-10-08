@@ -37,6 +37,8 @@ public class ExtractorTest {
 		UrlWithTables = "https://fr.wikipedia.org/w/index.php?title=Championnat_d%27Allemagne_f%C3%A9minin_de_handball&oldid=160723522";
 		nbtabliens = new HashMap<>();
 
+
+		nbtabliens.put("https://es.wikipedia.org/wiki/M%C3%A1ster_en_inform%C3%A1tica_aplicada_a_la_gesti%C3%B3n_de_empresas", 1);
 		nbtabliens.put("https://en.wikipedia.org/w/index.php?title=Handball-Bundesliga_(women)&oldid=898595565", 5);
 		nbtabliens.put("https://en.wikipedia.org/w/index.php?title=Communist_Party_of_the_Soviet_Union&oldid=931312112",
 				2);
@@ -109,7 +111,7 @@ public class ExtractorTest {
 
 	@Test
 	public void UrlRedirectWikitext() {
-		Url url = new Url("https://en.wikipedia.org/wiki/Comparison_of_Android_e-book_reader_software");
+		Url url = new Url("https://es.wikipedia.org/wiki/Filete_(carne_roja)");
 		List<List<String>> tables = extractorwiki.getCSV(url);
 
 		assertTrue(tables.size() != 0, "L'url ( " + url.getLink() + " ) doit contenir au moins une wikitable.");
@@ -117,7 +119,7 @@ public class ExtractorTest {
 
 	@Test
 	public void UrlWithSpecialCharacterWikitext() {
-		Url url = new Url("https://en.wikipedia.org/wiki/Comparison_of_ALGOL_68_and_C++");
+		Url url = new Url("https://es.wikipedia.org/wiki/Filete_(carne_roja)");
 		List<List<String>> tables = extractorwiki.getCSV(url);
 
 		assertTrue(tables.size() != 0, "L'url ( " + url.getLink() + " ) doit contenir au moins une wikitable.");
