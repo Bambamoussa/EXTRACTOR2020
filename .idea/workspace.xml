@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10d627f1-9ec1-4f64-b999-dcb9fef2add7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EVALUATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/EVALUATION.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pdl/wiki/ExtractorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pdl/wiki/ExtractorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DESIGN.md" beforeDir="false" afterPath="$PROJECT_DIR$/DESIGN.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/ArrayList.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7830">
-              <caret line="563" selection-start-line="563" selection-end-line="563" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pdl/wiki/BenchTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,9 +36,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DESIGN.md">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -73,8 +67,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/INSTALL.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2595">
+            <state relative-caret-position="272">
               <caret line="173" column="19" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -88,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EVALUATION.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
@@ -131,12 +134,13 @@
         <option value="$PROJECT_DIR$/src/main/java/pdl/wiki/PageChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdl/wiki/Url.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdl/wiki/Table.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/INSTALL.md" />
         <option value="$PROJECT_DIR$/src/test/java/pdl/wiki/PageCheckerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pdl/wiki/PageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pdl/wiki/ExtractorTest.java" />
         <option value="$PROJECT_DIR$/EVALUATION.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/DESIGN.md" />
       </list>
     </option>
   </component>
@@ -359,7 +363,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602253032132</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="extrator 3">
+      <created>1602262657618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602262657618</updated>
+    </task>
+    <task id="LOCAL-00004" summary="extrator 4">
+      <created>1602264042040</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602264042040</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -439,7 +457,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="extrator 1" />
     <MESSAGE value="extrator 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="extrator 2" />
+    <MESSAGE value="extrator 3" />
+    <MESSAGE value="extrator 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="extrator 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -535,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pdl/wiki/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -593,16 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DESIGN.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INSTALL.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2595">
-          <caret line="173" column="19" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -658,6 +661,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INSTALL.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="173" column="19" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESIGN.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
         </state>
       </provider>
     </entry>
