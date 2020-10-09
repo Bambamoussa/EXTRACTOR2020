@@ -55,12 +55,12 @@ public class ExtractorTest {
 	public void getCSVHTML1() {
 		compareNumberOfTable(extractorhtml);
 	}
-	
+
 	@Test
 	public void getCSVWikiText1() {
 		compareNumberOfTable(extractorwiki);
 	}
-	
+
 	private void compareNumberOfTable(Extractor extractor) {
 		for (Entry<String, Integer> entry : nbtabliens.entrySet()) {
 			int size = extractor.getCSV(new Url(entry.getKey())).size();
@@ -111,7 +111,7 @@ public class ExtractorTest {
 
 	@Test
 	public void UrlRedirectWikitext() {
-		Url url = new Url("https://es.wikipedia.org/wiki/Filete_(carne_roja)");
+		Url url = new Url("https://fr.wikipedia.org/wiki/Segment_automobile");
 		List<List<String>> tables = extractorwiki.getCSV(url);
 
 		assertTrue(tables.size() != 0, "L'url ( " + url.getLink() + " ) doit contenir au moins une wikitable.");
@@ -119,7 +119,7 @@ public class ExtractorTest {
 
 	@Test
 	public void UrlWithSpecialCharacterWikitext() {
-		Url url = new Url("https://es.wikipedia.org/wiki/Filete_(carne_roja)");
+		Url url = new Url("https://fr.wikipedia.org/wiki/Segment_automobile");
 		List<List<String>> tables = extractorwiki.getCSV(url);
 
 		assertTrue(tables.size() != 0, "L'url ( " + url.getLink() + " ) doit contenir au moins une wikitable.");
