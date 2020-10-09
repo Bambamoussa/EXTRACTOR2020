@@ -36,6 +36,12 @@ Every members of our crew had the opportunity to contribute as much as they want
 ## Authors
 
 * **Bamba Moussa** - *Team leader - Java/UML developer* - (https://github.com/Bambamoussa)
+* **Djouaher Dihya** - *Team leader - Java/UML developer* - (https://github.com/dihya-15)
+* **Ange Kevin YEO** - *Team leader - Java/UML developer* - (https://github.com/AngeKevinYEO)
+* **Issam** - *Team leader - Java/UML developer* - (https://github.com/AngeKevinYEO)
+* **Yassin** - *Team leader - Java/UML developer* - (https://github.com/AngeKevinYEO)
+
+
  
 ## License
 
