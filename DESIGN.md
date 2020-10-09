@@ -16,15 +16,15 @@ The first package contains Extractor.java, an interface implemented by two class
 
 ![](/PDL_Master.png)
 
--A page given to necessarily, one and only one URL
+- A page given to necessarily, one and only one URL
 
--PageChecker checks one or more Page and a Page is checked by a single PageChecker
+- PageChecker checks one or more Page and a Page is checked by a single PageChecker
 
--WikiTextExtractor and HTMLExtractor inherit the interface
+- WikiTextExtractor and HTMLExtractor inherit the interface
 
--WikipediaMatrix has 0 or more Pages, relation -> from WikipediaMatrix to Page
+- WikipediaMatrix has 0 or more Pages, relation -> from WikipediaMatrix to Page
 
--WikipediaMatrix has 0 or more Urls, relation -> from WikipediaMatrix to Url
+- WikipediaMatrix has 0 or more Urls, relation -> from WikipediaMatrix to Url
 ### Sequence Diagram
 
 #### Add wikipedia link
@@ -41,17 +41,17 @@ The first package contains Extractor.java, an interface implemented by two class
 - The user can put Wikipedia links in wikipedia_links_list.txt file to extract the tables from the page. He can add and remove several.
 - The user can choose the backup path to save the tables in save_path.txt file.
 
--We found that the previous diagram did not correctly describe all the use cases. We therefore mean the 5 features developed for said project, namely a user can:
+- We found that the previous diagram did not correctly describe all the use cases. We therefore mean the 5 features developed for said     project, namely a user can:
 
--List the links
+- List the links
 
--Add a link
+- Add a link
 
--Remove a link
+- Remove a link
 
--Change the save location
+- Change the save location
 
--Save tables
+- Save tables
 
 
 
