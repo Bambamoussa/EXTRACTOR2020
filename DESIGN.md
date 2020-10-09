@@ -14,7 +14,7 @@ The first package contains Extractor.java, an interface implemented by two class
 
 ### Class diagram
 
-![](/media/PDL_Master.png)
+![](/PDL_Master.png)
 
 -A page given to necessarily, one and only one URL
 
